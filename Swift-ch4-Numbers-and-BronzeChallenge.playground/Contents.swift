@@ -49,3 +49,24 @@ let b: Int8 = 50
 let c = a + Int16(b)
 
 let d1 = 1.1 // Implicity Double
+let d2: Double = 1.1
+let f1: Float = 100.3
+
+print(10.0 + 11.4)
+print(11.0 / 3.0)
+print(12.4 % 5.0)
+
+if d1 == d2 {
+    print("d1 an d2 are the same1")
+}
+
+print("d1 + 0.1 is \(d1 + 0.1)")
+if d1 + 0.1 == 1.2 {
+    print("d1 + 0.1 is equal to 1.2")
+}
+
+
+//Bronze challenge
+//as described in the book a signed integer's first bit represents -MaxValue and
+// so -1 as Int8 is represented by 11111111
+// 11111111 in UInt8 is 255
